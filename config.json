@@ -1,0 +1,25 @@
+{
+  "upload_method": "browser",
+  "endpoint": "https://vdisk.example.com/api/upload",
+  "upload_folder": "/clipboard",
+  "watch_text": true,
+  "watch_images": true,
+  "watch_files": true,
+  "poll_interval": 1.0,
+  "dry_run": false,
+  "enable_upload_prompt": true,
+  "browser": {
+    "login_url": "https://smartoffice-in.samsung.net/ko-kr/Vdisk",
+    "username_selector": "#loginId",
+    "password_selector": "#mbrPswd",
+    "login_button_selector": "",
+    "upload_page_url": "https://smartoffice-in.samsung.net/ko-kr/Vdisk/MyFiles",
+    "upload_modal_button_selector": "button[data-ng-click=\"main.vdisk.popup_upload()\"]",
+    "file_select_button_selector": "button[data-ng-click=\"main.vdisk.selectFiles();\"]",
+    "file_input_selector": "input#files",
+    "upload_confirm_button_selector": "button[data-ng-click=\"main.vdisk.uploadFiles()\"]",
+    "headless": true,
+    "max_wait": 30,
+    "reuse_session": true
+  }
+}

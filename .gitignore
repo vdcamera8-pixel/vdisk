@@ -1,0 +1,24 @@
+# Credentials - never commit
+.env
+browser_cookies.json
+
+# Build artifacts
+dist/
+dist2/
+build/
+
+# PyInstaller
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
