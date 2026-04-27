@@ -11,7 +11,7 @@ a = Analysis(
     binaries=[],
     datas=[
         ('config.json', '.'),
-        (PLAYWRIGHT_PATH, 'playwright'),
+        (PLAYWRIGHT_PATH, 'playwright'),  # includes node.exe driver
     ],
     hiddenimports=[
         # Playwright
